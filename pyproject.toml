@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "brpy"
+version = "0.0.1"
+description = ""
+authors = ["custodio <contato@custodio.science>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.0.2"
+isort = "^5.11.4"
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
