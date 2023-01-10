@@ -1,13 +1,13 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 from typing import Callable
 
 import numpy as np
-from dataclasses import dataclass
 
 
 @dataclass(slots=True)
-class CPFValidation:
+class CPFValidator:
     digits: str
     array: np.ndarray = None
     ufs: list = None
